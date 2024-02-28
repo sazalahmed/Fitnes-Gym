@@ -58,6 +58,7 @@ $(function () {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    dots: false
                 }
             }
         ]
@@ -77,7 +78,7 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -122,6 +123,16 @@ $(function () {
         asNavFor: '.slider-nav',
         nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
         prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false
+                }
+            }
+        ]
     });
 
     $('.slider-nav').slick({
@@ -187,6 +198,20 @@ $(function () {
         nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
         prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
 
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
+
+
+
+
     });
 
 
@@ -241,13 +266,13 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -281,6 +306,68 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
+
+    // banner 3 slider
+    $('.banner_3_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        arrows: false,
+        fade: true,
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    dots: false,
+                }
+            }
+        ]
+    });
+
+
+    // program 4 slider
+    $('.program_4_slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: false,
+        fade: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
                     slidesToShow: 4,
                 }
             },
@@ -306,28 +393,6 @@ $(function () {
     });
 
 
-    // banner 3 slider
-    $('.banner_3_slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: true,
-        arrows: false,
-        fade: true,
-    });
-
-
-    // program 4 slider
-    $('.program_4_slider').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: false,
-        arrows: false,
-        fade: false,
-    });
 
     // testimonial 3 slide
     $('.slider-for2').slick({
@@ -338,6 +403,16 @@ $(function () {
         arrows: false,
         dots: true,
         asNavFor: '.slider-nav2',
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    dots: false,
+                }
+            }
+        ]
     });
 
     $('.slider-nav2').slick({
@@ -368,13 +443,13 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -387,6 +462,7 @@ $(function () {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             }
         ]
@@ -397,7 +473,7 @@ $(function () {
     $('.count').countUp();
 
 
-    //program slider
+    //gallery slider
     $('.gallery_slider').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
@@ -410,13 +486,13 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 4,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -482,17 +558,82 @@ $(function () {
     });
 
 
+    //=======select2====== 
+    $(document).ready(function () {
+        $('.select_2').select2();
+    });
+
+
+
     // sticky sidebar 
     $(".sticky_sidebar").stickit({
         top: 80,
     })
 
 
+    // product_details slider
+    $('.slider-forFive').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        asNavFor: '.slider-navFive',
+        nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
+    });
+
+    $('.slider-navFive').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.slider-forFive',
+        arrows: false,
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        centerPadding: 0,
+    });
 
 
 
 
+    // releted_product  slider
+    $('.releted_product').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
 
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
+    });
 
 
 
@@ -515,9 +656,9 @@ $(function () {
 
 
     //=======SMALL DEVICE MENU ICON======
-    // $(".navbar-toggler").on("click", function () {
-    //     $(".navbar-toggler").toggleClass("show");
-    // });
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
 
 
 
