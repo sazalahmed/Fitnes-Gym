@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     <title>Fitness || Gym & Fitness HTML Template</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/all.min.css">
@@ -15,9 +16,12 @@
     <link rel="stylesheet" href="css/scroll_button.css">
     <link rel="stylesheet" href="css/animated_barfiller.css">
     <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/range_slider.css">
     <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/pointer.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/rtl.css"> -->
 </head>
 
 <body>
@@ -58,7 +62,7 @@
                             </select>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="dashboard_profile.html">
                                 <span><img src="images/user_icon_1.png" alt="user" class="img-fluid"></span>
                                 Profile
                             </a>
@@ -95,6 +99,7 @@
                             <li><a href="index.html">Home 01</a></li>
                             <li><a href="index_2.html">Home 02</a></li>
                             <li><a href="index_3.html">Home 03</a></li>
+                            <li><a href="index_4.html">Home 04 dark</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -121,11 +126,16 @@
                             <li><a href="programs.html">programs</a></li>
                             <li><a href="services.html">services</a></li>
                             <li><a href="trainer.html">trainers</a></li>
-                            <li><a href="blog_details.html" class="active">Blog Details</a></li>
+                            <li><a href="workout.html">workout</a></li>
+                            <li><a href="workout_details.html">workout details</a></li>
+                            <li><a href="blog_details.html">Blog Details</a></li>
                             <li><a href="product_details.html">product details</a></li>
                             <li><a href="program_details.html">program details</a></li>
                             <li><a href="service_details.html">service details</a></li>
                             <li><a href="trainer_details.html">trainer details</a></li>
+                            <li><a href="photo_gallery.html">photo gallery</a></li>
+                            <li><a href="video_gallery.html">video gallery</a></li>
+                            <li><a href="award.html">award</a></li>
                             <li><a href="dashboard_profile.html">dashboard</a></li>
                             <li><a href="faq.html">faq's</a></li>
                             <li><a href="login.html">log in</a></li>
@@ -141,7 +151,7 @@
                 </ul>
                 <ul class="right_menu d-flex flex-wrap align-items-center">
                     <li>
-                        <a href="#" class="wsus__manu_cart icon">
+                        <a href="cart.html" class="wsus__manu_cart icon">
                             <span>
                                 <img src="images/cart_icon.png" alt="cart" class="img-fluid">
                             </span>
@@ -243,7 +253,7 @@
     <!--============================
         BREADCRUMBS START
     =============================-->
-    <section class="wsus__breadcrumb">
+    <section class="wsus__breadcrumb wow fadeInUp">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -251,7 +261,7 @@
                         <h1>Cart Details</h1>
                         <ul>
                             <li>
-                                <a href="#"><i class="fas fa-home-lg-alt"></i>Home</a>
+                                <a href="index.html"><i class="fas fa-home-lg-alt"></i>Home</a>
                             </li>
                             <li>Cart Details</li>
                         </ul>
@@ -268,20 +278,10 @@
     <!--============================
         CART START
     =============================-->
-    <section class="wsus__cart mt_110 xs_mt_90">
+    <section class="wsus__cart mt_120 xs_mt_100">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-4">
-                    <ul class="wsus__payment_manu mb_60">
-                        <li><a href="cart.html" class="active">Cart List</a></li>
-                        <li><a href="checkout.html"> Check Out</a></li>
-                        <li><a href="payment.html">Payment</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-xl-10">
+                <div class="col-xl-10 wow fadeInUp">
                     <div class="wsus__cart_list">
                         <div class="table-responsive">
                             <table>
@@ -385,7 +385,7 @@
                 <div class="col-xl-10">
                     <div class="wsus__cart_list_bottom">
                         <div class="row justify-content-between">
-                            <div class="col-md-6 col-xl-5">
+                            <div class="col-md-6 col-xl-5 wow fadeInUp">
                                 <div class="wsus__cart_coupon">
                                     <h4>Apply Coupon </h4>
                                     <form action="#">
@@ -394,7 +394,7 @@
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xl-5">
+                            <div class="col-md-6 col-xl-5 wow fadeInUp">
                                 <div class="wsus__cart_list_pricing">
                                     <h6>Total <span>$ 360.00</span></h6>
                                     <p>Tax<span>12%</span></p>
@@ -408,7 +408,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-xl-10">
+                <div class="col-xl-10 wow fadeInUp">
                     <ul class="wsus__cart_list_bottom_btn">
                         <li><a href="products.html" class="common_btn common_btn_2 cont_shop">Continue To Shipping</a>
                         </li>
@@ -429,14 +429,14 @@
     <section class="wsus__releted_product mt_135 xs_mt_90 mb_115 xs_mb_95">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-xl-6 wow fadeInUp">
                     <div class="wsus__section_heading_3 mb_55">
                         <h2>Related Products</h2>
                     </div>
                 </div>
             </div>
             <div class="row releted_product">
-                <div class="col-xl-3">
+                <div class="col-xl-3 wow fadeInUp">
                     <div class="wsus__product_item">
                         <div class="img">
                             <img src="images/product_9.jpg" alt="equipment" class="img-fluid w-100">
@@ -453,7 +453,7 @@
                         </div>
                         <span class="new">new</span>
                         <div class="text">
-                            <a href="#" class="title">Black Sneakers</a>
+                            <a href="product_details.html" class="title">Black Sneakers</a>
                             <p>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -465,7 +465,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 wow fadeInUp">
                     <div class="wsus__product_item">
                         <div class="img">
                             <img src="images/product_10.jpg" alt="equipment" class="img-fluid w-100">
@@ -482,7 +482,7 @@
                         </div>
                         <span class="new">new</span>
                         <div class="text">
-                            <a href="#" class="title">Smart Watch</a>
+                            <a href="product_details.html" class="title">Smart Watch</a>
                             <p>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -494,7 +494,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 wow fadeInUp">
                     <div class="wsus__product_item">
                         <div class="img">
                             <img src="images/product_11.jpg" alt="equipment" class="img-fluid w-100">
@@ -511,7 +511,7 @@
                         </div>
                         <span class="new">new</span>
                         <div class="text">
-                            <a href="#" class="title">weightlifting</a>
+                            <a href="product_details.html" class="title">weightlifting</a>
                             <p>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -523,7 +523,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 wow fadeInUp">
                     <div class="wsus__product_item">
                         <div class="img">
                             <img src="images/product_8.jpg" alt="equipment" class="img-fluid w-100">
@@ -540,7 +540,7 @@
                         </div>
                         <span class="new">new</span>
                         <div class="text">
-                            <a href="#" class="title">Fitness MAT</a>
+                            <a href="product_details.html" class="title">Fitness MAT</a>
                             <p>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -552,7 +552,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 wow fadeInUp">
                     <div class="wsus__product_item">
                         <div class="img">
                             <img src="images/product_12.jpg" alt="equipment" class="img-fluid w-100">
@@ -569,7 +569,7 @@
                         </div>
                         <span class="new">new</span>
                         <div class="text">
-                            <a href="#" class="title">Fitness MAT</a>
+                            <a href="product_details.html" class="title">Fitness MAT</a>
                             <p>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -628,8 +628,9 @@
                                             </div>
                                         </div>
                                         <ul class="wishlist d-flex flex-wrap">
-                                            <li><a href="#"><i class="fal fa-heart"></i>ADD TO WISHLIST</a></li>
-                                            <li><a href="#"><i class="fal fa-share-alt"></i>SHARE</a></li>
+                                            <li><a href="#"><span><i class="fal fa-heart"></i></span>ADD TO WISHLIST</a>
+                                            </li>
+                                            <li><a href="#"><span><i class="fal fa-share-alt"></i></span>SHARE</a></li>
                                         </ul>
                                         <ul class="details">
                                             <li>SKU:<span>GM90876</span></li>
@@ -657,7 +658,7 @@
     =============================-->
     <section class="wsus__social_media">
         <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-12 wow fadeInUp">
                 <ul class="d-flex flex-wrap">
                     <li><a href="#" class="facebook">Facebook</a></li>
                     <li><a href="#" class="insta">INSTRAGRAM</a></li>
@@ -677,7 +678,7 @@
     <footer class="wsus__footer pt_120 xs_pt_100">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-md-6 col-xl-3">
+                <div class="col-sm-6 col-lg-3 wow fadeInUp">
                     <div class="wsus__footer_left">
                         <div class="wsus__footer_logo">
                             <img src="images/logo.png" alt="logo" class="img-fluid w-100">
@@ -690,7 +691,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-2">
+                <div class="col-sm-6 col-lg-2 wow fadeInUp">
                     <div class="wsus__footer_manu">
                         <h4>Usefull Link</h4>
                         <ul>
@@ -702,7 +703,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-2">
+                <div class="col-sm-6 col-lg-2 wow fadeInUp">
                     <div class="wsus__footer_manu">
                         <h4>Support Desk</h4>
                         <ul>
@@ -714,7 +715,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3">
+                <div class="col-sm-6 col-lg-3 wow fadeInUp">
                     <div class="wsus__footer_right">
                         <h4>Contact Us</h4>
                         <ul>
@@ -726,23 +727,23 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="mailto:example@gmail.com">
-                                    <span><img src="images/sms.png" alt="icon" class="img-fluid w-100"></span>
-                                    example@gmail.com
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:1234567890">
+                                <a href="callto:1234567890">
                                     <span><img src="images/Calling.png" alt="icon" class="img-fluid w-100"></span>
                                     +(402) 763 282 46
                                 </a>
+                            </li>
+                            <li>
+                                <form action="#">
+                                    <input type="text" placeholder="Enter Your Email">
+                                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                                </form>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12 wow fadeInUp">
                     <div class="wsus__copy_right mt_115 xs_mt_95">
                         <p><a href="#">2024 WebSolutionUS</a> All Rights Reserved.</p>
                         <ul class="d-flex flex-wrap">
@@ -787,8 +788,10 @@
     <script src="js/animated_barfiller.js"></script>
     <script src="js/jquery.countup.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/range_slider.js"></script>
     <script src="js/sticky_sidebar.js"></script>
     <script src="js/select2.min.js"></script>
+    <script src="js/pointer.js"></script>
     <!--main/custom js-->
     <script src="js/main.js"></script>
 

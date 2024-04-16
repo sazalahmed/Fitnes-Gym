@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     <title>Fitness || Gym & Fitness HTML Template</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/all.min.css">
@@ -15,9 +16,12 @@
     <link rel="stylesheet" href="css/scroll_button.css">
     <link rel="stylesheet" href="css/animated_barfiller.css">
     <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/range_slider.css">
     <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/pointer.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/rtl.css"> -->
 </head>
 
 <body>
@@ -58,7 +62,7 @@
                             </select>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="dashboard_profile.html">
                                 <span><img src="images/user_icon_1.png" alt="user" class="img-fluid"></span>
                                 Profile
                             </a>
@@ -95,6 +99,7 @@
                             <li><a href="index.html">Home 01</a></li>
                             <li><a href="index_2.html">Home 02</a></li>
                             <li><a href="index_3.html">Home 03</a></li>
+                            <li><a href="index_4.html">Home 04 dark</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -121,11 +126,16 @@
                             <li><a href="programs.html">programs</a></li>
                             <li><a href="services.html">services</a></li>
                             <li><a href="trainer.html">trainers</a></li>
+                            <li><a href="workout.html">workout</a></li>
+                            <li><a href="workout_details.html">workout details</a></li>
                             <li><a href="blog_details.html">Blog Details</a></li>
                             <li><a href="product_details.html">product details</a></li>
                             <li><a href="program_details.html">program details</a></li>
                             <li><a href="service_details.html">service details</a></li>
                             <li><a href="trainer_details.html">trainer details</a></li>
+                            <li><a href="photo_gallery.html">photo gallery</a></li>
+                            <li><a href="video_gallery.html">video gallery</a></li>
+                            <li><a href="award.html">award</a></li>
                             <li><a href="dashboard_profile.html">dashboard</a></li>
                             <li><a href="faq.html">faq's</a></li>
                             <li><a href="login.html">log in</a></li>
@@ -141,7 +151,7 @@
                 </ul>
                 <ul class="right_menu d-flex flex-wrap align-items-center">
                     <li>
-                        <a href="#" class="wsus__manu_cart icon">
+                        <a href="cart.html" class="wsus__manu_cart icon">
                             <span>
                                 <img src="images/cart_icon.png" alt="cart" class="img-fluid">
                             </span>
@@ -243,7 +253,7 @@
     <!--============================
         BREADCRUMBS START
     =============================-->
-    <section class="wsus__breadcrumb">
+    <section class="wsus__breadcrumb wow fadeInUp">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -251,7 +261,7 @@
                         <h1>day class</h1>
                         <ul>
                             <li>
-                                <a href="#"><i class="fas fa-home-lg-alt"></i>Home</a>
+                                <a href="index.html"><i class="fas fa-home-lg-alt"></i>Home</a>
                             </li>
                             <li>day class</li>
                         </ul>
@@ -271,7 +281,7 @@
     <section class="wsus__photo_gallery wsus__photo_gallery_2 pt_120 xs_pt_100">
         <div class="container">
             <div class="row gallery_slider_2">
-                <div class="col-xl-2">
+                <div class="col-xl-2 wow fadeInUp">
                     <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/program_2_img_1.jpg">
                         <img src="images/program_2_img_1.jpg" alt="gallery1" class="img-fluid w-100">
                         <div class="icon">
@@ -279,7 +289,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 wow fadeInUp">
                     <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/program_2_img_2.jpg">
                         <img src="images/program_2_img_2.jpg" alt="gallery1" class="img-fluid w-100">
                         <div class="icon">
@@ -287,7 +297,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 wow fadeInUp">
                     <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/program_2_img_3.jpg">
                         <img src="images/program_2_img_3.jpg" alt="gallery1" class="img-fluid w-100">
                         <div class="icon">
@@ -295,7 +305,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 wow fadeInUp">
                     <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/program_2_img_4.jpg">
                         <img src="images/program_2_img_4.jpg" alt="gallery1" class="img-fluid w-100">
                         <div class="icon">
@@ -303,7 +313,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 wow fadeInUp">
                     <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/program_2_img_5.jpg">
                         <img src="images/program_2_img_5.jpg" alt="gallery1" class="img-fluid w-100">
                         <div class="icon">
@@ -311,7 +321,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 wow fadeInUp">
                     <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/program_2_img_6.jpg">
                         <img src="images/program_2_img_6.jpg" alt="gallery1" class="img-fluid w-100">
                         <div class="icon">
@@ -319,7 +329,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 wow fadeInUp">
                     <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/program_2_img_7.jpg">
                         <img src="images/program_2_img_7.jpg" alt="gallery1" class="img-fluid w-100">
                         <div class="icon">
@@ -334,7 +344,7 @@
     <section class="wsus__service_details pt_110 xs_pt_90">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-7 col-xl-7">
+                <div class="col-lg-7 col-xl-7 wow fadeInUp">
                     <div class="wsus__service_details_text">
                         <div class="wsus__service_details_top">
                             <div class="icon">
@@ -361,15 +371,15 @@
                             <li>Varied Workouts</li>
                             <li>support & resources</li>
                         </ul>
-                        <a href="#" class="common_btn common_btn_2">join now <i class="far fa-long-arrow-right"
-                                aria-hidden="true"></i></a>
+                        <a href="pricing.html" class="common_btn common_btn_2">join now <i
+                                class="far fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-5 col-xl-4">
+                <div class="col-md-6 col-lg-5 col-xl-4 wow fadeInRight">
                     <div class="wsus__single_trainer active mt-0">
                         <img src="images/trainer_img_2.jpg" alt="Trainer" class="img-fluid w-100">
                         <div class="text">
-                            <a href="#" class="title">David Warner</a>
+                            <a href="trainer_details.html" class="title">David Warner</a>
                             <p>Fitness Coach</p>
                         </div>
                         <ul>
@@ -385,7 +395,7 @@
 
     <section class="wsus__timetable wsus__timetable_3 mt_60">
         <div class="container">
-            <div class="wsus__timetable_list wsus__timetable_list_3">
+            <div class="wsus__timetable_list wsus__timetable_list_3 wow fadeInUp">
                 <div class="table-responsive">
                     <table class="table">
                         <thead>
@@ -554,13 +564,13 @@
     <section class="wsus__join_event wsus__join_event_2 pt_120 xs_pt_100">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 wow fadeInUp">
                     <div class="wsus__video_button" style="background: url(images/video_button_bg.jpg);">
                         <a class="play_btn venobox" data-autoplay="true" data-vbtype="video"
                             href="https://youtu.be/dOFZq66cGBs?si=TtJ4iKjmYRuaexyt">
                             <i class="fas fa-play"></i>
                         </a>
-                        <div class="wsus__join_event_2_text">
+                        <div class="wsus__join_event_2_text wow fadeInRight">
                             <div class="wsus__section_headeing heading_left mb_20">
                                 <h2>How to <span>Join with us</span></h2>
                             </div>
@@ -574,58 +584,58 @@
             </div>
             <div class="wsus__join_event_bottom">
                 <div class="row">
-                    <div class="col-xl-8">
+                    <div class="col-lg-7 col-xl-8 wow fadeInUp">
                         <div class="wsus__join_event_form">
                             <div class="wsus__section_heading_3">
                                 <h2>Join the Event</h2>
                             </div>
                             <form action="#">
                                 <div class="row">
-                                    <div class="col-xl-6">
+                                    <div class="col-md-6 col-lg-12 col-xl-6">
                                         <div class="wsus__join_event_form_input">
                                             <input type="text" placeholder="Fast Name">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-md-6 col-lg-12 col-xl-6">
                                         <div class="wsus__join_event_form_input">
                                             <input type="text" placeholder="Last Name">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-md-6 col-lg-12 col-xl-6">
                                         <div class="wsus__join_event_form_input">
                                             <input type="email" placeholder="Email">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-md-6 col-lg-12 col-xl-6">
                                         <div class="wsus__join_event_form_input">
                                             <input type="text" placeholder="Phone">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-md-6 col-lg-12 col-xl-6">
                                         <div class="wsus__join_event_form_input">
                                             <input type="text" placeholder="City">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-md-6 col-lg-12 col-xl-6">
                                         <div class="wsus__join_event_form_input">
                                             <input type="text" placeholder="Gender">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-md-6 col-lg-12 col-xl-6">
                                         <button class="common_btn common_btn_2">Submit</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-lg-5 col-xl-4 wow fadeInUp">
                         <div class="wsus__join_event_right">
                             <div class="wsus__section_heading_3">
                                 <h2>Fitnes program schedule</h2>
                             </div>
                             <p>With over 4100 online GYM Training videos and meditations, you’ll find something to match
                                 your mood, schedule and energy.</p>
-                            <a href="#" class="common_btn common_btn_2">More Details <i
+                            <a href="programs.html" class="common_btn common_btn_2">More Details <i
                                     class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
@@ -637,7 +647,7 @@
     <section class="wsus__program_3 mt_95 xs_mt_75 mb_120 xs_mb_100">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-xl-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp">
                     <div class="wsus__program_3_item">
                         <img src="images/program_3_img_1.jpg" alt="program" class="img-fluid w-100">
                         <div class="wsus__program_3_overly">
@@ -647,12 +657,12 @@
                                     href="https://youtu.be/RNkpzDaqOpM?si=NX0LVGAtgR52cY8F">
                                     <i class="fas fa-play"></i>
                                 </a>
-                                <a href="#" class="title">CARDIO WORKOUT Program</a>
+                                <a href="program_details.html" class="title">CARDIO WORKOUT Program</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp">
                     <div class="wsus__program_3_item">
                         <img src="images/program_3_img_2.jpg" alt="program" class="img-fluid w-100">
                         <div class="wsus__program_3_overly">
@@ -662,12 +672,12 @@
                                     href="https://youtu.be/HQfF5XRVXjU?si=MrNNiNjFfcIxQ-z9">
                                     <i class="fas fa-play"></i>
                                 </a>
-                                <a href="#" class="title">Nutrition Plan Program</a>
+                                <a href="program_details.html" class="title">Nutrition Plan Program</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp">
                     <div class="wsus__program_3_item">
                         <img src="images/program_3_img_3.jpg" alt="program" class="img-fluid w-100">
                         <div class="wsus__program_3_overly">
@@ -677,7 +687,7 @@
                                     href="https://youtu.be/oanjg8uCAe4?si=MMTMbkmmfoeZZGEN">
                                     <i class="fas fa-play"></i>
                                 </a>
-                                <a href="#" class="title">perfect yoga Program</a>
+                                <a href="program_details.html" class="title">perfect yoga Program</a>
                             </div>
                         </div>
                     </div>
@@ -695,7 +705,7 @@
     =============================-->
     <section class="wsus__social_media">
         <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-12 wow fadeInUp">
                 <ul class="d-flex flex-wrap">
                     <li><a href="#" class="facebook">Facebook</a></li>
                     <li><a href="#" class="insta">INSTRAGRAM</a></li>
@@ -715,7 +725,7 @@
     <footer class="wsus__footer pt_120 xs_pt_100">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-md-6 col-xl-3">
+                <div class="col-sm-6 col-lg-3 wow fadeInUp">
                     <div class="wsus__footer_left">
                         <div class="wsus__footer_logo">
                             <img src="images/logo.png" alt="logo" class="img-fluid w-100">
@@ -728,7 +738,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-2">
+                <div class="col-sm-6 col-lg-2 wow fadeInUp">
                     <div class="wsus__footer_manu">
                         <h4>Usefull Link</h4>
                         <ul>
@@ -740,7 +750,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-2">
+                <div class="col-sm-6 col-lg-2 wow fadeInUp">
                     <div class="wsus__footer_manu">
                         <h4>Support Desk</h4>
                         <ul>
@@ -752,7 +762,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3">
+                <div class="col-sm-6 col-lg-3 wow fadeInUp">
                     <div class="wsus__footer_right">
                         <h4>Contact Us</h4>
                         <ul>
@@ -764,23 +774,23 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="mailto:example@gmail.com">
-                                    <span><img src="images/sms.png" alt="icon" class="img-fluid w-100"></span>
-                                    example@gmail.com
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:1234567890">
+                                <a href="callto:1234567890">
                                     <span><img src="images/Calling.png" alt="icon" class="img-fluid w-100"></span>
                                     +(402) 763 282 46
                                 </a>
+                            </li>
+                            <li>
+                                <form action="#">
+                                    <input type="text" placeholder="Enter Your Email">
+                                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                                </form>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12 wow fadeInUp">
                     <div class="wsus__copy_right mt_115 xs_mt_95">
                         <p><a href="#">2024 WebSolutionUS</a> All Rights Reserved.</p>
                         <ul class="d-flex flex-wrap">
@@ -825,8 +835,10 @@
     <script src="js/animated_barfiller.js"></script>
     <script src="js/jquery.countup.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/range_slider.js"></script>
     <script src="js/sticky_sidebar.js"></script>
     <script src="js/select2.min.js"></script>
+    <script src="js/pointer.js"></script>
     <!--main/custom js-->
     <script src="js/main.js"></script>
 

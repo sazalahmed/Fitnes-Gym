@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     <title>Fitness || Gym & Fitness HTML Template</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/all.min.css">
@@ -15,9 +16,12 @@
     <link rel="stylesheet" href="css/scroll_button.css">
     <link rel="stylesheet" href="css/animated_barfiller.css">
     <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/range_slider.css">
     <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/pointer.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/rtl.css"> -->
 </head>
 
 <body>
@@ -44,6 +48,7 @@
                             <li><a href="index.html">Home 01</a></li>
                             <li><a href="index_2.html">Home 02</a></li>
                             <li><a href="index_3.html" class="active">Home 03</a></li>
+                            <li><a href="index_4.html">Home 04 dark</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -70,11 +75,16 @@
                             <li><a href="programs.html">programs</a></li>
                             <li><a href="services.html">services</a></li>
                             <li><a href="trainer.html">trainers</a></li>
+                            <li><a href="workout.html">workout</a></li>
+                            <li><a href="workout_details.html">workout details</a></li>
                             <li><a href="blog_details.html">Blog Details</a></li>
                             <li><a href="product_details.html">product details</a></li>
                             <li><a href="program_details.html">program details</a></li>
                             <li><a href="service_details.html">service details</a></li>
                             <li><a href="trainer_details.html">trainer details</a></li>
+                            <li><a href="photo_gallery.html">photo gallery</a></li>
+                            <li><a href="video_gallery.html">video gallery</a></li>
+                            <li><a href="award.html">award</a></li>
                             <li><a href="dashboard_profile.html">dashboard</a></li>
                             <li><a href="faq.html">faq's</a></li>
                             <li><a href="login.html">log in</a></li>
@@ -90,7 +100,7 @@
                 </ul>
                 <ul class="right_menu d-flex flex-wrap align-items-center">
                     <li>
-                        <a href="#" class="wsus__manu_cart icon">
+                        <a href="cart.html" class="wsus__manu_cart icon">
                             <span>
                                 <img src="images/cart_icon.png" alt="cart" class="img-fluid">
                             </span>
@@ -252,7 +262,7 @@
     <section class="wsus__program_3 mt_95 xs_mt_75">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-xl-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp">
                     <div class="wsus__program_3_item">
                         <img src="images/program_3_img_1.jpg" alt="program" class="img-fluid w-100">
                         <div class="wsus__program_3_overly">
@@ -262,12 +272,12 @@
                                     href="https://youtu.be/RNkpzDaqOpM?si=NX0LVGAtgR52cY8F">
                                     <i class="fas fa-play"></i>
                                 </a>
-                                <a href="#" class="title">CARDIO WORKOUT Program</a>
+                                <a href="program_details.html" class="title">CARDIO WORKOUT Program</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp">
                     <div class="wsus__program_3_item">
                         <img src="images/program_3_img_2.jpg" alt="program" class="img-fluid w-100">
                         <div class="wsus__program_3_overly">
@@ -277,12 +287,12 @@
                                     href="https://youtu.be/HQfF5XRVXjU?si=MrNNiNjFfcIxQ-z9">
                                     <i class="fas fa-play"></i>
                                 </a>
-                                <a href="#" class="title">Nutrition Plan Program</a>
+                                <a href="program_details.html" class="title">Nutrition Plan Program</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp">
                     <div class="wsus__program_3_item">
                         <img src="images/program_3_img_3.jpg" alt="program" class="img-fluid w-100">
                         <div class="wsus__program_3_overly">
@@ -292,7 +302,7 @@
                                     href="https://youtu.be/oanjg8uCAe4?si=MMTMbkmmfoeZZGEN">
                                     <i class="fas fa-play"></i>
                                 </a>
-                                <a href="#" class="title">perfect yoga Program</a>
+                                <a href="program_details.html" class="title">perfect yoga Program</a>
                             </div>
                         </div>
                     </div>
@@ -311,12 +321,12 @@
     <section class="wsus__machine_2 mt_120 xs_mt_100 ">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-md-6 col-xl-5">
+                <div class="col-md-6 col-xl-5 wow fadeInLeft">
                     <div class="wsus__machine_2_img">
                         <img src="images/machine_2_img.jpg" alt="machine" class="img-fluid w-100">
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-6">
+                <div class="col-md-6 col-xl-6 wow fadeInRight">
                     <div class="wsus__machine_2_text">
                         <div class="wsus__section_heading_2">
                             <h2>Welcome to our Fitnes Club</h2>
@@ -324,7 +334,7 @@
                         <p>With over 4100 online GYM Training videos and meditations, you’ll find something to match
                             your mood, schedule and energy. Stay flexible with a monthly membership – your first 04 days
                             are free Or save with an annual membership.</p>
-                        <a href="#" class="common_btn common_btn_2">More Details <i
+                        <a href="about_us.html" class="common_btn common_btn_2">More Details <i
                                 class="far fa-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -341,59 +351,59 @@
     =============================-->
     <section class="wsus__program_4 mt_120 xs_mt_100">
         <div class="row program_4_slider">
-            <div class="col-xl-3">
+            <div class="col-xl-3 wow fadeInUp">
                 <div class="wsus__program_4_item">
                     <img src="images/program_4_img_1.jpg" alt="program" class="img-fluid w-100">
                     <div class="wsus__program_4_overly">
                         <div class="text">
-                            <a href="#" class="title">FIND A GYM</a>
+                            <a href="program_details.html" class="title">FIND A GYM</a>
                             <p>Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet.</p>
-                            <a href="#" class="common_btn white_btn common_btn_2">More Details <i
+                            <a href="program_details.html" class="common_btn white_btn common_btn_2">More Details <i
                                     class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 wow fadeInUp">
                 <div class="wsus__program_4_item">
                     <img src="images/program_4_img_2.jpg" alt="program" class="img-fluid w-100">
                     <div class="wsus__program_4_overly">
                         <div class="text">
-                            <a href="#" class="title">Classes</a>
+                            <a href="program_details.html" class="title">Classes</a>
                             <p>Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet.</p>
-                            <a href="#" class="common_btn white_btn common_btn_2">More Details <i
+                            <a href="program_details.html" class="common_btn white_btn common_btn_2">More Details <i
                                     class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 wow fadeInUp">
                 <div class="wsus__program_4_item">
                     <img src="images/program_4_img_3.jpg" alt="program" class="img-fluid w-100">
                     <div class="wsus__program_4_overly">
                         <div class="text">
-                            <a href="#" class="title">WORKOUTS</a>
+                            <a href="program_details.html" class="title">WORKOUTS</a>
                             <p>Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet.</p>
-                            <a href="#" class="common_btn white_btn common_btn_2">More Details <i
+                            <a href="program_details.html" class="common_btn white_btn common_btn_2">More Details <i
                                     class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 wow fadeInUp">
                 <div class="wsus__program_4_item">
                     <img src="images/program_4_img_4.jpg" alt="program" class="img-fluid w-100">
                     <div class="wsus__program_4_overly">
                         <div class="text">
-                            <a href="#" class="title">EQUIPMENT</a>
+                            <a href="program_details.html" class="title">EQUIPMENT</a>
                             <p>Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet.</p>
-                            <a href="#" class="common_btn white_btn common_btn_2">More Details <i
+                            <a href="program_details.html" class="common_btn white_btn common_btn_2">More Details <i
                                     class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 wow fadeInUp">
                 <div class="wsus__program_4_item">
                     <img src="images/program_4_img_2.jpg" alt="program" class="img-fluid w-100">
                     <div class="wsus__program_4_overly">
@@ -419,14 +429,14 @@
     <section class="wsus__timetable wsus__timetable_3 pt_105 xs_pt_85 pb_120 xs_pb_100">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 m-auto">
+                <div class="col-xl-4 m-auto wow fadeInUp">
                     <div class="wsus__section_heading_3 mb_50">
                         <h2>FITNESS CLASSES TIMETABLE</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 wow fadeInUp">
                     <div class="wsus__timetable_menu text-center">
                         <ul class="nav nav-pills" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -456,7 +466,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="wsus__timetable_list wsus__timetable_list_3 mt_30">
+                    <div class="wsus__timetable_list wsus__timetable_list_3 mt_30 wow fadeInUp">
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                                 aria-labelledby="pills-home-tab" tabindex="0">
@@ -1295,7 +1305,7 @@
     <section class="wsus__join_event">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 wow fadeInUp">
                     <div class="wsus__video_button" style="background: url(images/video_button_bg.jpg);">
                         <a class="play_btn venobox" data-autoplay="true" data-vbtype="video"
                             href="https://youtu.be/dOFZq66cGBs?si=TtJ4iKjmYRuaexyt">
@@ -1306,58 +1316,58 @@
             </div>
             <div class="wsus__join_event_bottom">
                 <div class="row">
-                    <div class="col-xl-8">
+                    <div class="col-lg-7 col-xl-8 wow fadeInUp">
                         <div class="wsus__join_event_form">
                             <div class="wsus__section_heading_3">
                                 <h2>Join the Event</h2>
                             </div>
                             <form action="#">
                                 <div class="row">
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-md-6 col-lg-12">
                                         <div class="wsus__join_event_form_input">
                                             <input type="text" placeholder="Fast Name">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-md-6 col-lg-12">
                                         <div class="wsus__join_event_form_input">
                                             <input type="text" placeholder="Last Name">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-md-6 col-lg-12">
                                         <div class="wsus__join_event_form_input">
                                             <input type="email" placeholder="Email">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-md-6 col-lg-12">
                                         <div class="wsus__join_event_form_input">
                                             <input type="text" placeholder="Phone">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-md-6 col-lg-12">
                                         <div class="wsus__join_event_form_input">
                                             <input type="text" placeholder="City">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-md-6 col-lg-12">
                                         <div class="wsus__join_event_form_input">
                                             <input type="text" placeholder="Gender">
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-6 col-md-6 col-lg-12">
                                         <button class="common_btn common_btn_2">Submit</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-lg-5 col-xl-4 wow fadeInUp">
                         <div class="wsus__join_event_right">
                             <div class="wsus__section_heading_3">
                                 <h2>Fitnes program schedule</h2>
                             </div>
                             <p>With over 4100 online GYM Training videos and meditations, you’ll find something to match
                                 your mood, schedule and energy.</p>
-                            <a href="#" class="common_btn common_btn_2">More Details <i
+                            <a href="programs.html" class="common_btn common_btn_2">More Details <i
                                     class="far fa-long-arrow-right"></i></a>
                         </div>
                     </div>
@@ -1383,7 +1393,7 @@
                 </div>
             </div>
             <div class="row product_slider">
-                <div class="col-xl-3">
+                <div class="col-xl-3 wow fadeInUp">
                     <div class="wsus__product_item">
                         <div class="img">
                             <img src="images/product_1.jpg" alt="equipment" class="img-fluid w-100">
@@ -1400,7 +1410,7 @@
                         </div>
                         <span class="new">new</span>
                         <div class="text">
-                            <a href="#" class="title">Black Sneakers</a>
+                            <a href="product_details.html" class="title">Black Sneakers</a>
                             <p>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1412,7 +1422,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 wow fadeInUp">
                     <div class="wsus__product_item">
                         <div class="img">
                             <img src="images/product_2.jpg" alt="equipment" class="img-fluid w-100">
@@ -1429,7 +1439,7 @@
                         </div>
                         <span class="new">new</span>
                         <div class="text">
-                            <a href="#" class="title">Smart Watch</a>
+                            <a href="product_details.html" class="title">Smart Watch</a>
                             <p>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1441,7 +1451,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 wow fadeInUp">
                     <div class="wsus__product_item">
                         <div class="img">
                             <img src="images/product_3.jpg" alt="equipment" class="img-fluid w-100">
@@ -1458,7 +1468,7 @@
                         </div>
                         <span class="new">new</span>
                         <div class="text">
-                            <a href="#" class="title">weightlifting</a>
+                            <a href="product_details.html" class="title">weightlifting</a>
                             <p>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1470,7 +1480,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 wow fadeInUp">
                     <div class="wsus__product_item">
                         <div class="img">
                             <img src="images/product_4.jpg" alt="equipment" class="img-fluid w-100">
@@ -1487,7 +1497,7 @@
                         </div>
                         <span class="new">new</span>
                         <div class="text">
-                            <a href="#" class="title">Fitness MAT</a>
+                            <a href="product_details.html" class="title">Fitness MAT</a>
                             <p>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1499,7 +1509,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 wow fadeInUp">
                     <div class="wsus__product_item">
                         <div class="img">
                             <img src="images/product_2.jpg" alt="equipment" class="img-fluid w-100">
@@ -1516,7 +1526,7 @@
                         </div>
                         <span class="new">new</span>
                         <div class="text">
-                            <a href="#" class="title">Fitness MAT</a>
+                            <a href="product_details.html" class="title">Fitness MAT</a>
                             <p>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1575,8 +1585,9 @@
                                             </div>
                                         </div>
                                         <ul class="wishlist d-flex flex-wrap">
-                                            <li><a href="#"><i class="fal fa-heart"></i>ADD TO WISHLIST</a></li>
-                                            <li><a href="#"><i class="fal fa-share-alt"></i>SHARE</a></li>
+                                            <li><a href="#"><span><i class="fal fa-heart"></i></span>ADD TO WISHLIST</a>
+                                            </li>
+                                            <li><a href="#"><span><i class="fal fa-share-alt"></i></span>SHARE</a></li>
                                         </ul>
                                         <ul class="details">
                                             <li>SKU:<span>GM90876</span></li>
@@ -1605,7 +1616,7 @@
     <section class="wsus__testimonial_3 mb_110 xs_mb_90">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-xl-9">
+                <div class="col-md-7 col-xl-9 wow fadeInUp">
                     <div class="wsus__testimonial_3_slide_text_border">
                         <div class="row slider-for2">
                             <div class="col-xl-12">
@@ -1653,7 +1664,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 col-xl-3">
+                <div class="col-md-5 col-xl-3 wow fadeInRight">
                     <div class="wsus__testimonial_3_slide_img_area">
                         <div class="row slider-nav2">
                             <div class="col-xl-4">
@@ -1718,67 +1729,71 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
-                    <div class="wsus__section_heading_3 mb_55">
+                    <div class="wsus__section_heading_3 mb_55 wow fadeInUp">
                         <h2>Read the Latest News</h2>
                     </div>
                 </div>
             </div>
             <div class="row blog_3_slider">
-                <div class="col-xl-4">
+                <div class="col-xl-4 wow fadeInUp">
                     <div class="wsus__blog_3_item">
                         <img src="images/blog_3_img_1.jpg" alt="blog" class="img-fluid w-100">
                         <p><span><img src="images/clock_2.png" alt="clock" class="img-fluid w-100"></span>26 June,
                             2024</p>
                         <div class="wsus__blog_3_overly">
                             <div class="text">
-                                <a href="#" class="title">21 YEARS OF FITNESS EXCELLENCE AND THE GRAND ANNIVERSARY
+                                <a href="blog_details.html" class="title">21 YEARS OF FITNESS EXCELLENCE AND THE GRAND
+                                    ANNIVERSARY
                                     CELEBRATION</a>
-                                <a href="#" class="common_btn white_btn common_btn_2">Read More<i
+                                <a href="blog_details.html" class="common_btn white_btn common_btn_2">Read More<i
                                         class="far fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 wow fadeInUp">
                     <div class="wsus__blog_3_item">
                         <img src="images/blog_3_img_2.jpg" alt="blog" class="img-fluid w-100">
                         <p><span><img src="images/clock_2.png" alt="clock" class="img-fluid w-100"></span>26 June,
                             2024</p>
                         <div class="wsus__blog_3_overly">
                             <div class="text">
-                                <a href="#" class="title">21 YEARS OF FITNESS EXCELLENCE AND THE GRAND ANNIVERSARY
+                                <a href="blog_details.html" class="title">21 YEARS OF FITNESS EXCELLENCE AND THE GRAND
+                                    ANNIVERSARY
                                     CELEBRATION</a>
-                                <a href="#" class="common_btn white_btn common_btn_2">Read More<i
+                                <a href="blog_details.html" class="common_btn white_btn common_btn_2">Read More<i
                                         class="far fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 wow fadeInUp">
                     <div class="wsus__blog_3_item">
                         <img src="images/blog_3_img_3.jpg" alt="blog" class="img-fluid w-100">
                         <p><span><img src="images/clock_2.png" alt="clock" class="img-fluid w-100"></span>26 June,
                             2024</p>
                         <div class="wsus__blog_3_overly">
                             <div class="text">
-                                <a href="#" class="title">21 YEARS OF FITNESS EXCELLENCE AND THE GRAND ANNIVERSARY
+                                <a href="blog_details.html" class="title">21 YEARS OF FITNESS EXCELLENCE AND THE GRAND
+                                    ANNIVERSARY
                                     CELEBRATION</a>
-                                <a href="#" class="common_btn white_btn common_btn_2">Read More<i
+                                <a href="blog_details.html" class="common_btn white_btn common_btn_2">Read More<i
                                         class="far fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 wow fadeInUp">
                     <div class="wsus__blog_3_item">
                         <img src="images/blog_3_img_4.jpg" alt="blog" class="img-fluid w-100">
                         <p><span><img src="images/clock_2.png" alt="clock" class="img-fluid w-100"></span>26 June,
                             2024</p>
                         <div class="wsus__blog_3_overly">
                             <div class="text">
-                                <a href="#" class="title">21 YEARS OF FITNESS EXCELLENCE AND THE GRAND ANNIVERSARY
+                                <a href="blog_details.html" class="title">21 YEARS OF FITNESS EXCELLENCE AND THE GRAND
+                                    ANNIVERSARY
                                     CELEBRATION</a>
-                                <a href="#" class="common_btn white_btn common_btn_2">Read More<i
+                                <a href="blog_details.html" class="common_btn white_btn common_btn_2">Read More<i
                                         class="far fa-long-arrow-right"></i></a>
                             </div>
                         </div>
@@ -1797,7 +1812,7 @@
     =============================-->
     <footer class="wsus__footer wsus__footer_3">
         <div class="row">
-            <div class="col-xl-3">
+            <div class="col-xl-3 wow fadeInUp">
                 <div class="wsus__footer_left">
                     <div class="wsus__footer_logo">
                         <img src="images/logo.png" alt="logo" class="img-fluid w-100">
@@ -1814,7 +1829,7 @@
                 <div class="wsus__footer_3_right">
                     <div class="wsus__footer_3_right_link">
                         <div class="row justify-content-between">
-                            <div class="col-md-6 col-xl-2">
+                            <div class="col-sm-6 col-lg-2 col-xl-2 wow fadeInUp">
                                 <div class="wsus__footer_manu">
                                     <h4>Usefull Link</h4>
                                     <ul>
@@ -1826,7 +1841,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xl-2">
+                            <div class="col-sm-6 col-lg-2 col-xl-2 wow fadeInUp">
                                 <div class="wsus__footer_manu">
                                     <h4>Support Desk</h4>
                                     <ul>
@@ -1838,7 +1853,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xl-3">
+                            <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
                                 <div class="wsus__footer_right">
                                     <h4>Contact Us</h4>
                                     <ul>
@@ -1866,7 +1881,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xl-3">
+                            <div class="col-sm-6 col-lg-3 col-xl-3 wow fadeInUp">
                                 <div class="wsus__download_link">
                                     <h4>Get apps on!</h4>
                                     <ul>
@@ -1890,7 +1905,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 mt_115 xs_mt_95">
+                        <div class="col-12 mt_115 xs_mt_95 wow fadeInUp">
                             <div class="wsus__copy_right">
                                 <p><a href="#">2024 WebSolutionUS</a> All Rights Reserved.</p>
                             </div>
@@ -1932,8 +1947,10 @@
     <script src="js/animated_barfiller.js"></script>
     <script src="js/jquery.countup.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/range_slider.js"></script>
     <script src="js/sticky_sidebar.js"></script>
     <script src="js/select2.min.js"></script>
+    <script src="js/pointer.js"></script>
     <!--main/custom js-->
     <script src="js/main.js"></script>
 
